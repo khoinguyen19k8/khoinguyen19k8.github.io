@@ -1,0 +1,19 @@
+.outline-button-dark {
+    width: 240px;
+    padding: 20px 30px;
+    border: 2px solid #333;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    /*text-transform: uppercase;*/
+    font-weight: 600;
+}
+#questionSubmit{
+    margin: 0 10px;
+    width: 60px;
+    height: 60px;
+}
+
