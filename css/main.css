@@ -11,9 +11,29 @@
     /*text-transform: uppercase;*/
     font-weight: 600;
 }
-#questionSubmit{
+#questionSubmit {
     margin: 0 10px;
     width: 60px;
     height: 60px;
+}
+#myPicture {
+    width: 200px;
+    height: 200px;
+}
+#mainSection {
+    padding-top: 20rem;
+    padding-bottom: 0rem;
+}
+#contactIcons{
+    display: flex;
+    justify-content: center;
+
+}
+.icon-container{
+    padding: 0 10px;
+}
+.icon-container .icon{
+    height: 30px;
+    width: 30px;
 }
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8" />
         <!-- Bootstrap library -->
@@ -41,9 +40,6 @@
         />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/startbootstrap.css" rel="stylesheet" />
-
-        <!--Hover css-->
-        <link href="css/hover.css" rel="stylesheet" />
         <!-- My files-->
         <link href="css/main.css" rel="stylesheet" />
         <title>Khoi Quang Nguyen</title>
@@ -68,41 +64,28 @@
                         <a class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!--End navigation-->
-        <div class="text-black text-center" id="mainSection">
-            <div class="container d-flex align-items-center flex-column" id="homepageHeading">
-                <h1 class="text-uppercase mb-0">Hey there!</h1>
-                <form class="divider-custom">
-                    <input
-                        type="text"
-                        placeholder="Ask me something..."
-                        autofocus
-                        class="outline-button-dark hvr-icon-wobble-horizontal"
-                    />
-                    <input
-                        type="image"
-                        src="images/arrow-right-circle-fill.svg"
-                        alt="Submit"
-                        id="questionSubmit"
-                    />
-                </form>
+        <!--About section-->
+        <div class="page-section bg-primary text-white text-uppercase" id="about">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase"><b>About me</b></p></h1>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-4 mr-auto">
+                        <p class="lead">
+                            I am currently a sophomore at Tilburg University. My major
+                            is Cognitive Science and Artificial Intelligence. 
+                        </p>
+                    </div>
+                    <div class="col-lg-4 ml-auto">
+                        <img src="images/me.jpg" id="myPicture">
+                    </div>    
+                </div>
             </div>
         </div>
-        <div id="contactIcons">
-            <a href="https://github.com/khoinguyen19k8" target="_blank" class="hvr-bob icon-container">
-                <img src="/images/github.svg" class="icon">
-            </a>
-            <a href="https://www.linkedin.com/in/khoi-quang-nguyen-05a34017a/" target="_blank" class="hvr-bob icon-container">
-                <img src="/images/linkedin.svg" class="icon">
-            </a>
-            <a href="#" target="_blank" class="hvr-bob icon-container">
-                <img src="/images/envelope-fill.svg" class="icon">
-            </a>
-        </div>
-    </body>
 </html>
