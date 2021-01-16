@@ -21,19 +21,39 @@
     height: 200px;
 }
 #mainSection {
-    padding-top: 20rem;
-    padding-bottom: 0rem;
+    height: 80vh;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*padding-top: 20rem;
+    padding-bottom: 0rem;*/
 }
-#contactIcons{
+#contactIcons {
     display: flex;
     justify-content: center;
-
 }
-.icon-container{
+.icon-container {
     padding: 0 10px;
 }
-.icon-container .icon{
+.icon-container .icon {
     height: 30px;
     width: 30px;
 }
-
+h5 {
+    margin-bottom: 40px;
+    opacity: 0.2;
+}
+h5:hover {
+    cursor: "U+02639";
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+#subWelcomeHeading
+{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
